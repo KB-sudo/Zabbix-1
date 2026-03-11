@@ -34,7 +34,7 @@ sudo -u postgres createuser --pwprompt zabbix
 sudo -u postgres createdb -O zabbix zabbix
 sudo sed -i 's/# DBPassword=/DBPassword=zabbix_pass/' /etc/zabbix/zabbix_server.conf
 
-
+```
 
 ### Задание 2
 
